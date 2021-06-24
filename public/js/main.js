@@ -25,6 +25,11 @@ angular.module('ifsp', ['ngRoute', 'ngResource']).config(function($routeProvider
     	controller: 'CursoController'
     });   
 
+	$routeProvider.when('/curso', {
+        templateUrl: 'partials/curso.html',
+        controller: 'CursoController'
+    });
+
 
     $routeProvider.otherwise({redirectTo: '/contatos'});
 
