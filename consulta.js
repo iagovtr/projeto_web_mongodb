@@ -1,6 +1,7 @@
-const findDocuments = function(db, callback) {
+/*const findDocuments = function(db, callback) {
     //Get the documents collection
     const collection = db.collection('contatos');
+    const collection = db.collection('cursos');
     //Find some documents
     collection.find({ }).toArray(function(err, docs) {
         assert.equal(err, null);
@@ -27,4 +28,4 @@ findDocuments(db, function() {
     client.close();
 });
 
-});
+});*/
